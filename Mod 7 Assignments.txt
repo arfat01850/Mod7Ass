@@ -58,5 +58,8 @@ SELECT emp_dept, COUNT(*) FROM employees GROUP BY department;
 
 d. Write a query to insert a new department called "Research" with a manager named "John Doe".
 
-INSERT INTO Research Where Deparment TO name = "John Doe";
+INSERT INTO departments (department_name, manager_name)
+VALUES ('Research', 'John Doe');
+
+
 
